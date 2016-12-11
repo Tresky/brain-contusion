@@ -1,6 +1,9 @@
 @import 'base';
 @import '~normalize.css/normalize';
 
+@import 'components/code_area';
+@import 'components/navbar';
+
 // Some best-practice CSS that's useful for most apps
 // Just remove them if they're not what you want
 html {
@@ -18,4 +21,14 @@ body {
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+.header {
+  font-family: $lato;
+  font-size: 3.4rem;
+  margin: 20px 0 20px 0;
+}
+
+.navbar {
+  margin-bottom: 0px;
 }

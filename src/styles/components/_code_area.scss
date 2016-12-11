@@ -1,0 +1,63 @@
+.code-area-container {
+  width: 100%;
+
+  .input-container {
+    width: 100%;
+    height: 500px;
+
+    .code-area {
+      width: 70%;
+      height: 100%;
+      display: inline-block;
+      float: left;
+      resize: none;
+      font-family: $droidsans;
+      font-size: 1.7rem;
+      overflow: auto;
+      word-wrap: break-word;
+      padding: 5px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .output-area {
+      width: 30%;
+      height: 100%;
+      text-align: left;
+      padding: 5px;
+      display: inline-block;
+      float: right;
+      background-color: $charcoal;
+      color: white;
+      font-family: $droidsans;
+      font-size: 1.7rem;
+      overflow-y: scroll;
+      word-wrap: word-break;
+    }
+  }
+
+  .button-row {
+    margin-top: 10px;
+
+    .btn:focus {
+      outline: none;
+    }
+
+    .run-button {
+      width: 100px;
+      padding: 10px;
+      font-size: 1.7rem;
+      float: right;
+    }
+
+    .clear-button {
+      width: 150px;
+      padding: 10px;
+      margin-right: 10px;
+      font-size: 1.7rem;
+      float: right;
+    }
+  }
+}
